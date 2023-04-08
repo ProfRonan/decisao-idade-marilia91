@@ -2,12 +2,12 @@
 idade_usuario = int(input("digite um número: "))
 
 if idade_usuario < 0:
-    print('impossível')
+    print('impossível!')
     if idade_usuario < 18: 
         print('não precisa se alistar')
 elif 18 < idade_usuario < 65:
-    print('não esqueça de votar na proxima eleição')
+    print('Não esqueça de votar na próxima eleição')
 elif idade_usuario > 65:
-    print('vá descansar')
+    print('Vá descansar')
 else:
     print('eita!')
